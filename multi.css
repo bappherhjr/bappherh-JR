@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(40, 39, 39);
+  color: wheat;
+  font-size: x-large;
+}
+
+.first {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70px;
+  margin-top: 3cm;
+  margin-left: 3cm;
+  border-style: none;
+  cursor: pointer;
+}
+
+.second {
+  background-color: Red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70px;
+  margin-top: 3cm;
+  margin-left: 3cm;
+  border-style: none;
+  cursor: pointer;
+  position: relative;
+  left: 10cm;
+  top: -0.1cm;  
+}
+
+.first:hover {
+  width: 80px;
+  transform-origin: left;
+}
+
+.second:hover {
+  width: 80px;
+  transform-origin: left;
+}

@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(40, 39, 39);
+  color: white;
+  font-size: xx-large;
+}
+
+.toss {
+  background-color: black;
+  color: aqua;
+  padding: 15px;
+  margin-top: 5cm;
+  margin-left: 5cm;
+  border-radius: 10cm;
+  cursor: pointer;
+}
+
+.guess {
+  background-color: White;
+  color: black;
+  padding: 15px;
+  margin-top: 2.8cm;
+  margin-left: 2.5cm;
+  border-radius: 7.5px;
+  cursor: pointer;
+  margin-bottom: 5cm;
+  border-radius: 15cm;
+}
+
+
+.guessed {
+    background-color: black;
+    color: aqua;
+    padding: 15px;
+    margin-top: 5cm;
+    margin-left: 7cm;
+    border-radius: 7.5px;
+    cursor: pointer;
+    margin-bottom: 5cm;
+    border-radius: 15cm;
+}
+
+
+.link {
+  color: purple;
+  text-decoration: underline;
+}
